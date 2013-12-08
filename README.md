@@ -18,7 +18,7 @@ var tap = requireModule('tap', path.join(__dirname, '..', 'dir'));
 
 ## API
 
-### exports(file, root)
+### requireModule(module, root)
 
 **Parameters**
 
@@ -32,7 +32,7 @@ var tap = requireModule('tap', path.join(__dirname, '..', 'dir'));
 
 ## Kudos
 
-Adapted from @substack's [catw](https://github.com/substack/catw) module
+Adapted function found in @substack's [catw](https://github.com/substack/catw) module
 
 ## License
 
