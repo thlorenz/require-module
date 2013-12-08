@@ -22,7 +22,7 @@
     "nave": "~0.4.3",
     "tap": "~0.4.3"
   },
-  "keywords": [],
+  "keywords": [ "require", "resolve", "relative", "working", "directory", "module" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",

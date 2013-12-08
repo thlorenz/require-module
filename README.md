@@ -30,6 +30,10 @@ var tap = requireModule('tap', path.join(__dirname, '..', 'dir'));
 
 *Object*,  the result of requiring the module
 
+## Kudos
+
+Adapted from @substack's [catw](https://github.com/substack/catw) module
+
 ## License
 
 MIT
