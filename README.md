@@ -1,5 +1,4 @@
-# require-file
-[![build status](https://secure.travis-ci.org/thlorenz/require-file.png)](http://travis-ci.org/thlorenz/require-file)
+# require-module [![build status](https://secure.travis-ci.org/thlorenz/require-module.png)](http://travis-ci.org/thlorenz/require-module)
 
 Requires a file found relative to given root or working directory.
 
@@ -7,12 +6,9 @@ Requires a file found relative to given root or working directory.
 // TODO
 ```
 
-## Status
-
-Nix, Nada, Nichevo, Nothing --> go away!
 ## Installation
 
-    npm install require-file
+    npm install require-module
 
 ## API
 
