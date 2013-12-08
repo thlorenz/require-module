@@ -8,13 +8,13 @@ var resolve = require('resolve')
  * 
  * @name requireModule
  * @function
- * @param {String} file name of an installed module or path to a file to be required.
+ * @param {String} module name of an installed module or path to a module to be required.
  * @param {String=} root defaults to current working directory 
- * @return {Object} the result of requiring the file
+ * @return {Object} the result of requiring the module
  */
-module.exports = function requireModule(file, root) {
+module.exports = function requireModule(module, root) {
   root = root || process.cwd(); 
-  return (/^[.\/]/).test(file)
-    ? require(path.resolve(root, file))
-    : require(resolve.sync(file, { basedir: root }));
+  return (/^[.\/]/).test(module)
+    ? require(path.resolve(root, module))
+    : require(resolve.sync(module, { basedir: root }));
 }
