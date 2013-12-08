@@ -1,6 +1,6 @@
 {
   "name": "require-module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Requires a module found relative to given root or working directory.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,14 @@
     "nave": "~0.4.3",
     "tap": "~0.4.3"
   },
-  "keywords": [ "require", "resolve", "relative", "working", "directory", "module" ],
+  "keywords": [
+    "require",
+    "resolve",
+    "relative",
+    "working",
+    "directory",
+    "module"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
